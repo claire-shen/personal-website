@@ -21,6 +21,10 @@ html, body{
     top:0; 
 }
 
+.dropdown-menu{
+    background-color: light purple;
+}
+
 .fa-solid{
     color: #8479db;
     font-size: 2em;
@@ -170,7 +174,6 @@ html, body{
     background-color: rgba(230, 139, 206, 0.732);
     color: rgb(48, 46, 46);
     padding: 1rem;
-    height: 5rem;
     gap: 3rem;
     position: relative;
 }
@@ -190,3 +193,37 @@ html, body{
     left: 82%;
 }
 
+@media screen and (max-width: 480px) {
+    .links, .resume {
+        margin-right: 15%;
+        margin-left: 15%;
+        font-size: 2rem;
+        height: 4rem;
+   
+    }
+
+    .icons{
+        font-size: 1.5rem;
+    }
+
+    .github{
+        left: 48%;
+    }
+    
+    .linkedin {
+        left: 64%;
+    }
+    
+    .email{
+        left: 82%;
+        
+    }
+
+    .arrow{
+        left: 80%
+    }
+
+    .connect, .downloadres{
+        font-size: 1.5rem;
+    }
+}
