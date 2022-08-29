@@ -6,7 +6,7 @@ html, body{
     width: 100vw;
     height: 100vw;
 }
- 
+
 .pt1 {
     background-color: #e5e5f7;
     background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
@@ -46,39 +46,37 @@ html, body{
 }
 
 @keyframes float {
-	0% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
-	50% {
-		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
-		transform: translatey(-10px);
-	}
-	100% {
-		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-		transform: translatey(0px);
-	}
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+        transform: translatey(-12px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+        transform: translatey(0px);
+    }
 }
 
 
 .container{
-    margin-top: 5%;
-    display: flex;
-    background-color: #b9b3e8af;
-    align-items:  center;
-    justify-content: center;
-    width: 80%;
-    border-radius: 25%;
-    overflow: hidden;
     box-shadow: 0 5px 15px 0px;
-	transform: translatey(0px);
-	animation: float 5s ease-in-out infinite;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
 } 
 
+.container1{
+    border-radius: 25%;
+    width: 80%;
+    overflow: hidden;
+    background-color: #b9b3e8af;
+    
+}
 .opening{
     margin-top: 5%;
     margin-bottom: 1%;
-    opacity: 1.0 !important;
 }
 
 .intro{
@@ -101,6 +99,7 @@ html, body{
 #second{
     font-size: 1.5em;
 }
+
 .headshot{
     margin-top: 1%;
     width: 35%;
@@ -109,3 +108,85 @@ html, body{
     height: 80%;
     margin-bottom: 3%;
 }
+
+.contact{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2%;
+    display: grid;
+    gap: 2.0rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.links{
+    width: auto;
+    margin-right: 6%;
+    margin-left: 6%;
+    background-color: rgba(63, 137, 255, 0.728);
+    color: white;
+    padding: 1rem;
+    height: 5rem;
+    border-radius: 30%;
+    position: relative;
+}
+
+.connect{    
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'Passion One', cursive;
+    font-size: 2rem;
+    color: rgb(58, 58, 58);
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3rem;
+    color: rgb(58, 58, 58);
+}
+
+.github{
+    left: 48%;
+}
+
+.linkedin {
+    left: 64%;
+}
+
+.email{
+    left: 81%;
+    
+}
+
+.resume{
+    width: auto;
+    margin-right: 6%;
+    margin-left: 6%;
+    border-radius: 30%;
+    height: 5rem;
+    background-color: rgba(230, 139, 206, 0.732);
+    color: rgb(48, 46, 46);
+    padding: 1rem;
+    height: 5rem;
+    gap: 3rem;
+    position: relative;
+}
+
+.downloadres{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: 'Passion One', cursive;
+    font-size: 2rem;
+    color: rgb(58, 58, 58);
+    white-space: nowrap
+}
+
+.arrow{
+    left: 82%;
+}
+
