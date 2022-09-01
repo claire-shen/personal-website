@@ -64,7 +64,6 @@ html, body{
     }
 }
 
-
 .container{
     box-shadow: 0 5px 15px 0px;
     transform: translatey(0px);
@@ -162,7 +161,6 @@ html, body{
 
 .email{
     left: 81%;
-    
 }
 
 .resume{
@@ -190,8 +188,47 @@ html, body{
 }
 
 .arrow{
-    left: 82%;
+    left: 80%;
 }
+
+.aboutme{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: auto;
+    background-color: #18c8b7af;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 10%;
+    box-shadow: 0 5px 15px 0px;
+}
+
+.aboutme:hover{
+    transform: scale(1.1);
+}
+
+.secondimg {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+.aboutitle {
+    margin-top: 4%;
+    font-family: 'Lilita One', cursive;
+    font-size: 2.2rem; 
+    margin-bottom: 4%;
+}
+
+.abouttext{
+    margin-right: 3%;
+}
+
+.aboutinfo {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 @media screen and (max-width: 480px) {
     .links, .resume {
@@ -226,4 +263,34 @@ html, body{
     .connect, .downloadres{
         font-size: 1.5rem;
     }
+
+    #second{
+        font-size: 1.2em;
+    }
+
+    .aboutme{
+        margin-top: 8%;
+    }
+    .aboutitle{
+        font-size: 1.4em; 
+        margin-top: 4%;
+    }
+
+    .aboutinfo {
+        font-size: 0.8rem;
+    }
+
+    .secondimg {
+        width: 115%;
+    }
+
+    .wrap{
+        margin-left: -40%;
+    }
+
+    .aboutme:hover{
+        transform: none;
+    }
+
 }
+
