@@ -223,10 +223,13 @@ html, body{
 
 .abouttext{
     margin-right: 3%;
+    padding: 10px;
 }
 
 .aboutinfo {
     font-family: 'Raleway', sans-serif;
+    width: fit-content;
+    margin-bottom: 1em;
 }
 
 
@@ -293,4 +296,3 @@ html, body{
     }
 
 }
-
