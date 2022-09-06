@@ -112,7 +112,7 @@ html, body{
     margin-bottom: 3%;
 }
 
-.contact{
+#contact{
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 2%;
@@ -213,7 +213,6 @@ html, body{
     width: 90%;
 }
 
-
 .aboutitle {
     margin-top: 4%;
     font-family: 'Lilita One', cursive;
@@ -232,6 +231,32 @@ html, body{
     margin-bottom: 1em;
 }
 
+.side-projects{
+    background-color: rgba(229, 139, 60, 0.683);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 35%;
+    text-align: center;
+    box-shadow: 0 5px 15px 0px;
+} 
+
+.spcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sptitle{
+    font-family: 'Lilita One', cursive;
+    text-align: center;
+}
+
+.fa-angle-down{
+    color: black;
+}
 
 @media screen and (max-width: 480px) {
     .links, .resume {
@@ -295,4 +320,10 @@ html, body{
         transform: none;
     }
 
+    .side-projects{
+        margin-top: 8%;
+    }
+    .sptitle{
+        font-size: 1.2rem; 
+    }
 }
