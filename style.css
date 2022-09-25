@@ -351,7 +351,6 @@ a, a:visited, a:active {
     margin-left: 25%; 
     margin-right: 4%; 
     padding-bottom: 4%;
-    padding-right: 5%;
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 5px 15px 0px;
@@ -386,23 +385,22 @@ a, a:visited, a:active {
     margin-left: 15%; 
 }
 
+
 .cfdemo{
     display: flex;
     justify-content: center; 
-    margin-top: 10%;
+    margin-top: 6%;
     width: auto;
-    height: 80%;
-    padding-left: 20%;
-    overflow:hidden;
 }
 
 .cfgif{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(89, 86, 86);
     padding: 4px; 
     border-radius: 6%;
+    width: 80%;
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1000px){
     .task-list{
         min-width:auto;
         margin-right: 5%;
@@ -541,6 +539,8 @@ a, a:visited, a:active {
     .task-list, .cat-finder{
         margin-bottom: 10%;
         grid-template-columns: 1fr;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .cfcontainer{
@@ -558,7 +558,6 @@ a, a:visited, a:active {
 
     .cfdemo{
         margin-top: 4%;
-        padding-left: 5%;
     }
 
     .cfgif{
