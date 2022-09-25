@@ -343,28 +343,78 @@ a, a:visited, a:active {
     border-radius: 6%;
 }
 
+.cat-finder{
+    background-color: #34dda8d2;
+    border-radius: 20%;
+    padding: 8px;
+    margin-top: 4%;
+    margin-left: 35%; 
+    margin-right: 5%; 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 5px 15px 0px;
+    min-width: 500px;
+}
+
+.cfcontainer2{
+    margin-top: 5%;
+    height: 60%;
+    display: grid;
+    grid-template-rows: repeat(1fr);
+}
+
+.cfcontainer{
+    margin-top: 6%;
+    width: 18%;
+    margin-left: 15%; 
+    white-space: nowrap;
+}
+
+.cfchild{
+    display: inline-block;
+}
+
+.sptextcf{
+    margin-top: -5%;
+    margin-left: 15%; 
+    font-size: 1.1rem;
+}
+
+.languagescf{
+    margin-left: 15%; 
+}
+
+.cfdemo{
+    display: flex;
+    justify-content: center; 
+    margin-top: 6%;
+    height: 85%;
+}
+
+.cfgif{
+    background-color: rgb(80, 80, 80);
+    padding: 4px; 
+    border-radius: 6%;
+}
+
 @media screen and (max-width: 1000px){
     .task-list{
         min-width:auto;
         margin-right: 5%;
     }
 
-    .tldemo{
-        margin-top: 0; 
-
-    }
-    .tldemo{
+    .tldemo, .cfdemo{
         margin-top: 0%;
         margin-bottom: 5%;
         height: 200px;
     }
 
-    .tlcontainer2{
+    .tlcontainer2, .cfcontainer2{
         text-align: centre;
         margin-right: 0%;
     }
 
-    .languagestl{
+    .languagestl, .languagescf{
         text-align: center;
         margin-left: 0%;
     }
@@ -374,7 +424,18 @@ a, a:visited, a:active {
         margin-left: 0;
         text-align: center;
     }
-    
+
+    .sptextcf{
+        font-size: 1.0rem;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .cat-finder{
+        min-width:auto;
+        margin-left: 5%;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -444,21 +505,21 @@ a, a:visited, a:active {
     }
     
     .sptitle, .sptitle:hover, .sptitle:visited{
-        font-size: 1.6rem; 
+        font-size: 1.6rem;
     }
 
-    .tlcontainer{
+    .tlcontainer, .cfcontainer{
         margin-top: 2%; 
         text-align: center;
         width: 18%;
         margin-left: 30%; 
     }
 
-    .tlcontainer2{
+    .tlcontainer2, .cfcontainer2{
         text-align: center;
     }
 
-    .tlinfo{
+    .tlinfo, .cfinfo{
         margin-right: 5%;
         margin-left: 5%;
     }
@@ -467,7 +528,25 @@ a, a:visited, a:active {
         font-size: 0.9rem;
     }
 
-    .task-list{
+    .task-list, .cat-finder{
+        margin-bottom: 10%;
         grid-template-columns: 1fr;
+    }
+
+    .cfcontainer{
+        margin-top: 2%; 
+        text-align: center;
+        width: 18%;
+        margin-right: 30%; 
+    }
+
+    .sptextcf, .sptextcf{
+        font-size: 1.0rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .cfgif{
+        margin-bottom: 5%;
     }
 }
