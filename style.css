@@ -194,7 +194,7 @@ html, body{
 .aboutme{
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: auto;
+    height: auto%;
     background-color: #39dacad1;
     margin-top: 4%;
     margin-right: 10%;
@@ -209,8 +209,10 @@ html, body{
 
 .secondimg {
     display: block;
-    margin: 0 auto;
-    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    width: 80%;
+    padding: 8%;
 }
 
 .aboutitle {
@@ -494,7 +496,8 @@ a, a:visited, a:active {
     }
 
     .secondimg {
-        width: 115%;
+        margin-top: 50%;
+        width: 110%;
     }
 
     .wrap{
