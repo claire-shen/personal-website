@@ -593,11 +593,12 @@ a, a:visited, a:active {
 
     .cfgif{
         width: 85%;
-        margin-right: 10%; 
     }
 
     .lwgif{
         width: 65%;
+        margin-right: 10%; 
+        margin-left: -15%;
     }
 
 }
