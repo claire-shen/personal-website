@@ -409,7 +409,7 @@ a, a:visited, a:active {
     width: auto;
 }
 
-.cfgif{
+.cfgif, .lwgif{
     background-color: rgb(89, 86, 86);
     padding: 4px; 
     border-radius: 6%;
@@ -582,7 +582,7 @@ a, a:visited, a:active {
     }
 
     .lwgif{
-        width: 60%;
+        width: 70%;
     }
 
 }
