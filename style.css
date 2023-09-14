@@ -391,13 +391,13 @@ a, a:visited, a:active {
     display: inline-block;
 }
 
-.sptextcf{
+.sptextcf, .sptextlw{
     margin-top: -5%;
     margin-left: 15%; 
     font-size: 1.1rem;
 }
 
-.languagescf{
+.languagescf, .languageslw{
     margin-left: 15%; 
 }
 
@@ -436,6 +436,11 @@ a, a:visited, a:active {
     .languagestl, .languagescf{
         text-align: center;
         margin-left: 0%;
+    }
+
+    .languageslw {
+        margin-left: 0%;
+        margin-right: 7%;
     }
 
     .sptexttl{
@@ -567,10 +572,19 @@ a, a:visited, a:active {
         margin-right: 30%; 
     }
 
-    .sptextcf, .sptextcf{
+    .sptextcf {
         font-size: 1.0rem;
         margin-left: 0;
         text-align: center;
+    }
+
+    .sptextlw{
+        margin-right: 7%;
+        margin-left: 7%;
+    }
+
+    .lwtitle {
+        margin-left: -20%;
     }
 
     .cfdemo{
@@ -582,7 +596,7 @@ a, a:visited, a:active {
     }
 
     .lwgif{
-        width: 60%;
+        width: 75%;
     }
 
 }
