@@ -318,3 +318,42 @@ html, body {
         margin: 0.5em 0; /* Adjust margin for mobile */
     }
 }
+
+.side-projects{
+    background-color: rgba(243, 167, 81, 0.76);
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 8px;
+    border-radius: 35%;
+    text-align: center;
+    box-shadow: 0 5px 15px 0px;
+} 
+
+.spSectionContainer{
+    margin-top: 2%; 
+    margin-bottom: 1%; 
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.sparrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-angle-down{
+    margin-top: 12%; 
+    color: black;
+    animation: bounce 2s ease infinite;
+    margin-right: 10%;
+}
+
+.sptitle{
+    font-family: 'Patua One', cursive;
+    text-align: center;
+}
+
