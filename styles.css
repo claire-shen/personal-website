@@ -376,6 +376,14 @@ html, body {
     background-color: #e29fd8d2;
 }
 
+.task-list{
+    background-color: #9397edd2;
+}
+
+.cat-finder{
+    background-color: #34dda8d2;
+}
+
 .left-side{
     border-radius: 20%;
     padding: 30px;
