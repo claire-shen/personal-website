@@ -295,7 +295,8 @@ html, body {
         flex-direction: column; /* Stack items vertically on small screens */
         margin: 5% auto; /* Center container and add vertical margin */
         padding: 2%; /* Adjust padding for smaller screens */
-        width: 80%; /* Ensure container fits within viewport */
+        width: 85%; /* Ensure container fits within viewport */
+        margin-bottom: 10%;
     }
 
     .aboutMeImage {
@@ -354,6 +355,146 @@ html, body {
 
 .sptitle{
     font-family: 'Patua One', cursive;
-    text-align: center;
+    margin-left: 10%;
 }
 
+.side-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.sc-website{
+    background-color: #ffbb1cd2;
+}
+
+.lct-website{
+    background-color: #e29fd8d2;
+}
+
+.left-side{
+    border-radius: 20%;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-right: 30%; 
+    margin-left: 0%; 
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    box-shadow: 0 5px 15px 0px;
+    min-width: 500px;
+}
+
+.right-side{
+    border-radius: 20%;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-right: 0%; 
+    margin-left: 30%; 
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    box-shadow: 0 5px 15px 0px;
+    min-width: 500px;
+}
+
+.sp-container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(1fr);
+}
+
+.spinfo {
+    display: flex;   
+    justify-content: center; 
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.title-icon{
+    padding-bottom: 5%;
+}
+
+.sptitle{ 
+    font-family: 'Patua One', cursive;
+    color: black;
+    font-size: 2.0rem;
+    margin: 0 auto;
+}
+
+.fa-arrow-up-right-from-square:hover {
+    transform: scale(1.35);
+}
+
+.languages{
+    font-family: 'Fira Code', monospace;
+}
+
+.sptext{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+} 
+
+.spdemo {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+}
+
+.spgif{
+    margin: 0 auto;
+    background-color: rgb(89, 86, 86);
+    padding: 4px; 
+    border-radius: 6%;
+    object-fit: contain;
+    max-width: 340px;
+}
+
+/* side projects on smaller screens */
+@media (max-width: 900px) {
+    .left-side{
+        grid-template-columns: 1fr; 
+        min-width: auto; 
+        margin-right: 0;
+        margin-left: 0; 
+        width: 100%; 
+        justify-content: center;
+    }
+
+    .right-side{
+        grid-template-columns: 1fr; 
+        min-width: auto; 
+        margin-right: 0;
+        margin-left: 0; 
+        width: 100%; 
+        justify-content: center;
+    }
+
+    .sp-container {
+        margin-top: 0; 
+    }
+
+    .spinfo {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .spdemo {
+        width: 92%;
+        margin: 0 auto;
+        margin-top: 10px; 
+    }
+
+    .spgif {
+        max-width: 100%; /* Fit the image inside the .scdemo */
+        width: 100%; /* Fill the available width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
