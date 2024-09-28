@@ -377,11 +377,15 @@ html, body {
 }
 
 .task-list{
-    background-color: #9397edd2;
+    background-color: #4cd3f1
 }
 
 .cat-finder{
     background-color: #34dda8d2;
+}
+
+.pizza {
+    background-color: #9397edd2;
 }
 
 .left-side{
